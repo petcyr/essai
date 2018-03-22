@@ -1,0 +1,15 @@
+.catalog:
+  name: "testcyp"
+  version: "v0"
+  description: "Essai cyrille"
+  uuid: testcyp-0
+  questions:
+    - variable: "PORT"
+      label: "Numéro du port"
+      description: "Numéro du port d'écoute d'apache"
+      default: 8080
+      required: true
+      type: "int"
+testcyp:
+  scale: 1
+  start_on_create: true

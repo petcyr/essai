@@ -1,0 +1,4 @@
+testcyp:
+  image: httpd:2.4
+  ports:
+    - ${PORT}:80/tcp
