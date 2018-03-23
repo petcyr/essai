@@ -5,8 +5,8 @@
   uuid: testcyp-0
   questions:
     - variable: "PORT"
-      label: "Numéro du port"
-      description: "Numéro du port d'écoute d'apache"
+      label: "NumÃ©ro du port"
+      description: "NumÃ©ro du port d'Ã©coute d'apache"
       default: 8080
       required: true
       type: "int"
